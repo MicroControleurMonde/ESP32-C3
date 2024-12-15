@@ -33,7 +33,7 @@ The ESP32-C6 RNG generates random integer numbers as **32-bit values**.
     Random value #10: 	1012424606
 
 ## Platform
-The code was implemented specifically for an Espressif ESP32-C6 microcontroller on a DFRobot Beetle ESP32-C6 development board Link
+The code was implemented specifically for an Espressif ESP32-C3 microcontroller on a Seeed Studio XIAO ESP32C3 Module [Link](https://www.seeedstudio.com/Seeed-XIAO-ESP32C3-p-5431.html?srsltid=AfmBOoo0va9xPKzG-zCuRxoFXjVCC8uy9bMNLPEuQdSVxHsAHfRzhXAA)
 
 Esptool indicates ESP32-C3 (QFN32) (revision v0.4)
 
@@ -42,3 +42,23 @@ Quad Flat No-lead 32 pins (QFN32).
     MicroPython v1.22.2 on 2024-02-22; ESP32C3 module with ESP32C3
 
 ## Performance
+
+Time taken to generate xxxxxx values: **xx** seconds (avg)
+
+Throughput: **xxxxxx** bytes/sec
+
+**xxxxx** random values / sec.
+
+## Ent Test Report
+
+  ([www.fourmilab.ch](https://www.fourmilab.ch/random/)) John Walker
+- Sample size: **xx MB**
+- Total generated: **xxxxxx** values
+
+## Dieharder Test Report
+
+(https://webhome.phy.duke.edu/~rgb/General/dieharder.php) Robert G. Brown
+
+Sample size: **xx MB**
+
+Total generated: **xxxxxxx** values
