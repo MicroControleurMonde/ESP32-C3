@@ -49,7 +49,11 @@ Throughput: **xxxxxx** bytes/sec
 
 **xxxxx** random values / sec.
 
+        Time taken to generate 8000 values: 837 seconds
+        Throughput: 38.23 bytes/sec
+        Number of random values per second: 9.56
         
+        Needless to say, it is rather slow !
 
 ## Ent Test Report
 
