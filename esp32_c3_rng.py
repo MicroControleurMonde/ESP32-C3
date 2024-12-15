@@ -18,13 +18,13 @@ class ESP32RNG:
         self.wlan = network.WLAN(network.STA_IF)
 
     def activate_wifi(self):
-        """Activate Wi-Fi on the ESP32."""
+        """Activate Wi-Fi on the ESP32-C3."""
         if not self.wlan.active():
             self.wlan.active(True)
             # print("Wi-Fi enabled.")
 
     def deactivate_wifi(self):
-        """Deactivate Wi-Fi on the ESP32."""
+        """Deactivate Wi-Fi on the ESP32-C3."""
         if self.wlan.active():
             self.wlan.active(False)
             # print("Wi-Fi disabled.")
