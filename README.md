@@ -62,6 +62,8 @@ Throughput: **xxxxxx** bytes/sec
 - Sample size: **xx MB**
 - Total generated: **xxxxxx** values
 
+My first attempt to generate random values gives on 44446 numbers, an entropy of **3.555333** bits per byte.  although the MCU is slow, it fulfills its task perfectly.
+
 ## Dieharder Test Report
 
 (https://webhome.phy.duke.edu/~rgb/General/dieharder.php) Robert G. Brown
