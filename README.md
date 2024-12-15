@@ -17,7 +17,7 @@ This uses the same method to generate random numbers as the ESP32. Only the regi
 - Library : **esp32_c6_rng.py**
 - Library test: **test_esp32_c6_rng.py**
 
-Source: ESP32-C3 Technical Reference Manual V.1.1 - Chapter 25 Random Number Generator (RNG) - Pages 528/529 -  [link](https://www.espressif.com/sites/default/files/documentation/esp32-c3_technical_reference_manual_en.pdf)
+**Source**: *`ESP32-C3 Technical Reference Manual V.1.1 - Chapter 25 Random Number Generator (RNG) - Pages 528/529`* -  [link](https://www.espressif.com/sites/default/files/documentation/esp32-c3_technical_reference_manual_en.pdf)
 
 The ESP32-C6 RNG generates random integer numbers as **32-bit values**.
 
@@ -54,6 +54,7 @@ Throughput: **xxxxxx** bytes/sec
         Number of random values per second: 9.56
         
         Needless to say, it is rather slow !
+        Clearly, the adoption of HP SRAM on the C6 has greatly improved things compared to the SRAM on the C3 in terme of latency.
 
 ## Ent Test Report
 
